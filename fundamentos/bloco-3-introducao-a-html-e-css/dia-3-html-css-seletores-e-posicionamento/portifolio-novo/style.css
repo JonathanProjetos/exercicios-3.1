@@ -1,0 +1,76 @@
+body{
+
+    background-color: rgb(208, 187, 230);
+    background:url(background-1639314.jpg);
+}
+#top-title{
+    color: rgb(83, 57, 83);
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;
+    font-size: 50px;
+}
+.sub-title{ 
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(83, 57, 83);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;
+}
+.lista{
+    
+    display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+	align-content: center;
+    
+}
+#alinhamento-top{
+    color: rgb(83, 57, 83);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+#alinhamento-footer{
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+#alinhamento-texto{
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+
+}
+#foto{
+
+    text-align: center;
+
+}
+
