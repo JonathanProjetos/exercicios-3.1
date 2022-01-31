@@ -1,7 +1,7 @@
 body{
 
     background-color: rgb(208, 187, 230);
-    background:url(background-1639314.jpg);
+    background:url(background01.jpg);
 }
 #top-title{
     color: rgb(83, 57, 83);
@@ -15,7 +15,7 @@ body{
     font-size: 50px;
 }
 .sub-title{ 
-    
+    border: rgb(43, 226, 73) solid 1px;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     color: rgb(83, 57, 83);
@@ -27,7 +27,8 @@ body{
 	align-content: center;
 }
 .lista{
-    
+    border: red solid 1px;
+	
     display: flex;
 	flex-direction: column;
 	flex-wrap:wrap;
@@ -48,15 +49,16 @@ body{
     font-size: 40px;
 }
 #alinhamento-footer{
-
+	border: blueviolet solid 1px;
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: baseline;
+	align-items: center;
 	align-content: center;
     font-family: 'Dancing Script';
     font-size: 40px;
+	text-decoration: none;
 }
 #alinhamento-texto{
 
