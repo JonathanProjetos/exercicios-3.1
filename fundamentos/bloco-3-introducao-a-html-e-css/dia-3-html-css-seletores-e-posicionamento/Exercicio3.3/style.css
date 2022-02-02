@@ -1,0 +1,47 @@
+.super-mario {
+  width: 200px;
+  z-index: 1;
+  padding: 200px 0px 150px 250px;
+  position: absolute;
+
+}
+
+.goomba {
+  width: 100px;
+  z-index: 2;
+  padding: 460px 0px 10px 380px;
+  position: absolute;
+  
+}
+
+.baloon {
+  width: 180px;
+  z-index: 4;
+  position: absolute;
+  padding: 200px 0px 10px 460px;
+
+  
+
+}
+
+.speach {
+  font-size: 20px;
+  width: 100px;
+  z-index: 5;
+  padding: 200px 0px 10px 500px;
+  position: absolute;
+}
+
+
+.bowser {
+  width: 350px;
+  z-index: 3;
+  position: absolute;
+  padding: 200px 10px 0px 600px;
+}
+  
+
+body{
+
+  background-color: rgb(99, 89, 146);
+}
