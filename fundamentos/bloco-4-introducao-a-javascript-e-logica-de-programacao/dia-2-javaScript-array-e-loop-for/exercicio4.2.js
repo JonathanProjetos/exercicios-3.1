@@ -1,6 +1,6 @@
 //                                                  JavaScript - Array e loop For
 
-const { match } = require("assert");
+/* const { match } = require("assert");
 
 let nomes = ['jonathan','jessica','diego','lucia','valter']
 console.log(nomes.length)
@@ -14,7 +14,7 @@ console.log(nomes);
 
 let posição = nomes[nomes.length-1]
     console.log(posição)             // verificar a ultima posição de nomes.
-
+ */
 // A contagem dentro do array sempre começa com 0 e cada posição dentro do array e um indice.
 
  // variavel.push(); = adiciona iten no final da lista de um array.
@@ -47,7 +47,7 @@ let posição = nomes[nomes.length-1]
  //console.log(menuServices);
 
  //exercicio curse 02
-
+ //let resultado;
  //let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
  //let indexOfPortfolio = menu.indexOf("Portfólio");
  
@@ -109,16 +109,16 @@ let names = ['João', 'Maria', 'Antônio', 'Margarida'];
     }
 
 
-*/
+
 //exercicio 01
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-/* for (let index = 0; index < numbers.length; index += 1) {
+ for (let index = 0; index < numbers.length; index += 1) {
     
     console.log(numbers[index]);
     
-} */
+}
 
 
 //exercicio 02
@@ -174,7 +174,7 @@ for (let index = 0; index < numbers.length; index+= 1) {
     }    
 }
 console.log(resultado)
- */
+  */
 
 //exercicio 06
 
@@ -193,13 +193,38 @@ console.log(resultado) */
 
 //exercicio 07
 
-let resultado;
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let comparacao = 3;
 
 for (let index = 0; index < numbers.length; index += 1) {
     
-    //if(numbers[index] < resultado && )
-    //resultado = numbers[index]
-    
-    resultado = Math.min( numbers[index])
+    if(numbers[index] < comparacao){
+    comparacao = numbers[index]
+    }
 }
-console.log(resultado);
+console.log(comparacao); */
+
+
+
+//exercicio 08
+/* 
+let arrayNumeros = [];
+
+for (let index = 1; index <= 25; index+= 1)  {
+    
+    arrayNumeros.push(index)
+  
+}
+
+console.log(arrayNumeros); */
+
+// exercicio 09
+
+let arrayNumeros = []
+
+for (let index = 1; index <= 25; index += 1) {
+    
+    arrayNumeros.push(index /2);
+    
+}
+console.log(arrayNumeros);
