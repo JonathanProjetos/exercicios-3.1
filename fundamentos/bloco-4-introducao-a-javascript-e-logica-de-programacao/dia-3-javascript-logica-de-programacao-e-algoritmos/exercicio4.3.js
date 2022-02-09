@@ -139,19 +139,81 @@ Caso não encontre o elemento, retorne:
  */
 
 
-  let lista = [1,23,25,85,96,456,35,28,45,65,82,12,44,58];
-  let resultado = 0;
+ /*  let lista = [1,23,25,85,96,456,35,28,45,65,82,12,44,58];
  
-
   for (let index = 0; index < lista.length; index += 1) {
-      
-     if(lista[index] > lista[index]){
-         resultado = resultado +
-     }
-
-}
-console.log(resultado);
     
+    let numeroReferencia = lista[index];
+
+    for (let index2 = index+1; index2 < lista.length; index2 += 1) {      // utiliza o index como ponto de start.
+      
+       if (numeroReferencia > lista[index2]) {
+         numeroReferencia = lista[index2];
+         lista[index2] = lista[index];
+         lista[index] = numeroReferencia;
+         //console.log(numeroReferencia);
+       }
+     
+    }
+     
+
+  }
+console.log("test",lista); */
 
 
+
+/* et lista = [1,23,25,85,96,456,35,28,45,65,82,12,44,58];
+
+for (let index = 0; index < lista.length; index+= 1) {
   
+  let checagem = lista[index]
+
+  for (let index2 = index +1; index2 < lista.length; index2++) {
+    
+    if(lista[index] < lista[index2]){
+      checagem = lista[index2];
+      lista[index2]= lista[index]
+      lista[index] = checagem
+    }  
+  }
+  
+}
+console.log(lista); */
+
+
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let lista = [];
+
+for (let index = 0; index <= numbers.length; index += 1) {
+  for (let index2 = 0; index2 < index; index2 += 1) {
+    if (index === numbers.length && index2 === numbers.length -1) {
+      lista.push(numbers[index2]*2)
+     // console.log(lista);
+    }else if(index === index2+1){
+      lista.push(numbers[index] *numbers[index2]);
+    } 
+  }
+  
+}    
+
+console.log(lista);
+  
+
+
+
+
+/* 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, 2];
+let newNumbers = [];
+
+for (let index = 1; index <= numbers.length; index += 1) {
+    for (let index2 = 0; index2 < index; index2 += 1) {
+        if (index === numbers.length && index2 === numbers.length-1) {
+            newNumbers.push(numbers[index2]*2);
+        } else if(index === index2+1) {
+                newNumbers.push(numbers[index2]*numbers[index]);
+        }
+    }
+}
+*/ 

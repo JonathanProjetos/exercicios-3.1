@@ -219,7 +219,7 @@ for (let index = 1; index <= 25; index+= 1)  {
 console.log(arrayNumeros); */
 
 // exercicio 09
-
+/* 
 let arrayNumeros = []
 
 for (let index = 1; index <= 25; index += 1) {
@@ -227,4 +227,38 @@ for (let index = 1; index <= 25; index += 1) {
     arrayNumeros.push(index /2);
     
 }
-console.log(arrayNumeros);
+console.log(arrayNumeros); */
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    for (let index2 = 0; index2 < index; index2 += 1) {
+      if (numbers[index] < numbers[index2]) {
+        let position = numbers[index];
+        numbers[index] = numbers[index2];
+        numbers[index2] = position;
+      }
+    }
+  } */
+  
+
+
+/* let nota = 100
+let nota2 = nota >= 101;
+console.log(nota2); */
+let numeros = 0;
+
+for (let index = 1; index <= 50; index++) {
+    
+    if (index %3 === 1) {
+        
+        if(index %index === 0) 
+
+        numeros = index;
+        console.log(numeros) 
+    }
+    
+}
+
+
+
+
