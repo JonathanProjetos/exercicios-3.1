@@ -13,11 +13,14 @@ ondeEstou.appendChild(ondeQueroIr1)
 let ondeEstouMain = document.querySelector("main")//Aqui estou em main
 let creatSection = document.createElement("section")
 creatSection.className="center-content";
+creatSection.style.backgroundColor = "green"
 ondeEstouMain.appendChild(creatSection);
 
 let ondeEstouP = document.querySelector("section");
 let criandoP = document.createElement("p")
 ondeEstouP.appendChild(criandoP);
+ondeEstouP.style.textAlign = "center"
+criandoP.innerText="Olá povo"
 
 let creatSection1 = document.createElement("section")//Aproveitei a variavel main já criada para utilizar onde se pede.
 creatSection1.className="left-content"
@@ -40,12 +43,12 @@ ondeEstou4.appendChild(listaUl);
  
 let ondeEstou5 = document.querySelector("ul");
 
-
 function loopDeTags(elemento,tipo) {
     
     for (let index = 1; index <= elemento; index +=1) {
         let creatLi = document.createElement(tipo)
         ondeEstou5.appendChild(creatLi)
+        creatLi.innerText=index
     }
 }
 loopDeTags(10,"li")
@@ -62,12 +65,26 @@ function criarRepeticao(quantidade, tipo) {
     }
 }
 criarRepeticao(3 ,"h3")
+//exercicio 12
 
+ let resgatarSection = document.querySelectorAll("li")
+let resgatarMain = document.querySelector("ul")
 
-let sectionParaDelet = document.querySelector(".left-content")
+function removeChild(elementoPai,elementoFilho) {
 
-function removeChild(elemento) {
-    
-  elemento.parentNode.removeChild(elemento) 
+    elementoPai.removeChild(elementoFilho)     
 }
-removeChild(".left-content")
+removeChild(resgatarMain,resgatarSection[8])
+removeChild(resgatarMain,resgatarSection[9])
+ 
+ 
+
+let centralizeRightContent  = document.querySelector(".right-content").style.marginRight= "auto"
+
+
+
+
+let elementoPaiUl = document.querySelector("ul")
+let elementoFilhoUl = document.querySelectorAll("li")
+
+
