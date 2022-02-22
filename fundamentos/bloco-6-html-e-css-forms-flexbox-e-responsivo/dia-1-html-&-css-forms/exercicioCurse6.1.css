@@ -1,18 +1,11 @@
 
-#form-body{
-    border: solid 3px black;
-    width: 50%;
-    padding: 15px;
-}
+
 
 div{
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#description{
-    resize:none;
-    display: block;
-}
+}   
+
 button{
     padding-left: 40px;
     padding-right: 40px;
@@ -22,4 +15,10 @@ button{
 }
 form{
     background-color: rgb(236, 234, 234);
+}
+body{
+    padding: 20px;
+}
+h1{
+    text-align: center;
 }
