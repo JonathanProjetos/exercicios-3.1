@@ -66,10 +66,14 @@
         font-size: x-large;
         background-color: blueviolet;
         font-size: 20px;
+        max-width:max-content;
     }
 
     figcaption {
         font-size: 20px;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
         
 
       }
@@ -82,8 +86,9 @@
         text-align: center;
     }
     img{
-        width: 100px;
-        height: 100px;
+        margin-top: 5px;
+        width: 150px;
+        height: 150px;
         padding: 0px;
     }
 
@@ -94,22 +99,32 @@
 	    flex-direction: row;
 	    flex-wrap: wrap;
 	    justify-content: center;
-        border: 1px black solid;
+     /*    border: 1px black solid; */
+        
       
     }
 
     figure{
-        margin: 10px;
+        margin: 15px;
         display: flex;
 	    flex-direction: column;
 	    flex-wrap: wrap;
 	    align-items: center;
-        border: 1px black solid;
+      /*   border: 1px black solid; */
         
         
     }
+    p{
+        padding: 20px;
+    }
+    
 
-
+}
+@media  screen and (min-width:801px) and (max-width:1299px) {
+    body{
+        background-color: green;
+    }
+    
 }
 
 @media screen and (min-width:1300px){
@@ -157,9 +172,12 @@
 	    flex-wrap: wrap;
 	    align-items: center;
         border: 1px black solid;
+        background-color: aliceblue;
         
         
     }
-
+    p{
+        background-color: aliceblue;
+    }
 
 }
