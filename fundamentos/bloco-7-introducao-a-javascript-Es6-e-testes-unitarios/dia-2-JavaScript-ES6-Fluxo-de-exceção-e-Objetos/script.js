@@ -364,11 +364,11 @@ const person = {
 const person = {
     name:'Roberto',
   };
-  
+ 
   const lastName = {
     lastName: 'Silva',
   };
-  
+  console.log(Object.lastName)
   const newPerson = Object.assign({},person,lastName);
   newPerson.name = 'Gilberto';
   console.log(newPerson);
@@ -403,4 +403,7 @@ const person = {
       console.log(e.message);
     }
   };
+  
+
+ 
   
