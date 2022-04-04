@@ -244,7 +244,7 @@ console.log(allNameStudents); */
 
 
 const allNameStudents = estudantes.filter((estudante) => (
-    estudante.turno === 'Manhã')).map((estudante) => `${estudante.nome} ${estudante.sobrenome}`);
+    estudante.turno === 'Manhã'))
   
   console.log(allNameStudents);
 
