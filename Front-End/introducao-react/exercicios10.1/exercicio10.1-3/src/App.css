@@ -1,0 +1,27 @@
+body{
+  background-color: darkolivegreen;
+  margin: 10px
+}
+
+h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 50px;
+  font-family: fantasy;
+}
+
+.card{
+  border: solid 1px black;
+  margin: 12px;
+  padding: 8px;
+  background-color: white;
+  font-size: 20px;
+  font-family: fantasy;
+}
+p{
+  margin: 20px;
+}
+
+h4{
+  margin: 20px;
+}
